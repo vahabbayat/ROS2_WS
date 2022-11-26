@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../../build/aisd_motion/aisd_motion.egg-info/PKG-INFO
+../../../build/aisd_motion/aisd_motion.egg-info/SOURCES.txt
+../../../build/aisd_motion/aisd_motion.egg-info/dependency_links.txt
+../../../build/aisd_motion/aisd_motion.egg-info/entry_points.txt
+../../../build/aisd_motion/aisd_motion.egg-info/requires.txt
+../../../build/aisd_motion/aisd_motion.egg-info/top_level.txt
+../../../build/aisd_motion/aisd_motion.egg-info/zip-safe
+aisd_motion/__init__.py
+aisd_motion/move.py
+resource/aisd_motion
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

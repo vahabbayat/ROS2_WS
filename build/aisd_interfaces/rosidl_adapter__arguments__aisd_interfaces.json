@@ -1,0 +1,7 @@
+{
+  "package_name": "aisd_interfaces",
+  "non_idl_tuples": [
+    "/home/aisd/ros2_ws/src/aisd-vahabbayat/aisd_interfaces:msg/Hand.msg",
+    "/home/aisd/ros2_ws/src/aisd-vahabbayat/aisd_interfaces:srv/Speak.srv"
+  ]
+}

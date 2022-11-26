@@ -1,0 +1,21 @@
+{
+  "package_name": "aisd_interfaces",
+  "output_dir": "/home/aisd/ros2_ws/build/aisd_interfaces/rosidl_typesupport_fastrtps_c/aisd_interfaces",
+  "template_dir": "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_c/resource",
+  "idl_tuples": [
+    "/home/aisd/ros2_ws/build/aisd_interfaces/rosidl_adapter/aisd_interfaces:msg/Hand.idl",
+    "/home/aisd/ros2_ws/build/aisd_interfaces/rosidl_adapter/aisd_interfaces:srv/Speak.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/galactic/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c",
+    "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_typesupport_fastrtps_c/__init__.py",
+    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_c/resource/idl__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_c/resource/idl__type_support_c.cpp.em",
+    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_c/resource/msg__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_c/resource/msg__type_support_c.cpp.em",
+    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
+    "/home/aisd/ros2_ws/build/aisd_interfaces/rosidl_adapter/aisd_interfaces/msg/Hand.idl",
+    "/home/aisd/ros2_ws/build/aisd_interfaces/rosidl_adapter/aisd_interfaces/srv/Speak.idl"
+  ]
+}

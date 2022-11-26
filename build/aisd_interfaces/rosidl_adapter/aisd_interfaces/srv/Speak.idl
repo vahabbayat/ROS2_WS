@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from aisd_interfaces/srv/Speak.srv
+// generated code does not contain a copyright notice
+
+
+module aisd_interfaces {
+  module srv {
+    struct Speak_Request {
+      string words;
+    };
+    struct Speak_Response {
+      string response;
+    };
+  };
+};

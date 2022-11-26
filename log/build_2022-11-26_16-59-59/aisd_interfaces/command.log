@@ -1,0 +1,4 @@
+Invoking command in '/home/aisd/ros2_ws/build/aisd_interfaces': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/aisd/ros2_ws/build/aisd_interfaces -- -j2 -l2
+Invoked command in '/home/aisd/ros2_ws/build/aisd_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/aisd/ros2_ws/build/aisd_interfaces -- -j2 -l2
+Invoking command in '/home/aisd/ros2_ws/build/aisd_interfaces': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/aisd/ros2_ws/build/aisd_interfaces
+Invoked command in '/home/aisd/ros2_ws/build/aisd_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/aisd/ros2_ws/build/aisd_interfaces

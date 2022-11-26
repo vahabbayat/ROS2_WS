@@ -1,0 +1,257 @@
+[0.041s] Invoking command in '/home/aisd/ros2_ws/build/aisd_interfaces': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/aisd/ros2_ws/src/aisd-vahabbayat/aisd_interfaces -DCMAKE_INSTALL_PREFIX=/home/aisd/ros2_ws/install/aisd_interfaces
+[1.910s] -- The C compiler identification is GNU 9.4.0
+[3.210s] -- The CXX compiler identification is GNU 9.4.0
+[3.284s] -- Check for working C compiler: /usr/bin/cc
+[3.426s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.433s] -- Detecting C compiler ABI info
+[3.548s] -- Detecting C compiler ABI info - done
+[3.568s] -- Detecting C compile features
+[3.580s] -- Detecting C compile features - done
+[3.589s] -- Check for working CXX compiler: /usr/bin/c++
+[3.735s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.737s] -- Detecting CXX compiler ABI info
+[3.874s] -- Detecting CXX compiler ABI info - done
+[3.887s] -- Detecting CXX compile features
+[3.888s] -- Detecting CXX compile features - done
+[4.026s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[4.225s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.225s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.535s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[4.574s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.658s] -- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[5.200s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.243s] -- Found FastRTPS: /opt/ros/galactic/include  
+[5.444s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.580s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[5.977s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+[6.233s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.250s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.301s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[6.306s] -- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+[6.441s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[6.441s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.441s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[6.441s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[6.477s] -- Found PythonExtra: .so  
+[6.570s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[6.758s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.766s] -- Added test 'lint_cmake' to check CMake code style
+[6.770s] -- Added test 'xmllint' to check XML markup files
+[6.779s] -- Configuring done
+[6.817s] -- Generating done
+[6.826s] -- Build files have been written to: /home/aisd/ros2_ws/build/aisd_interfaces
+[6.841s] Invoked command in '/home/aisd/ros2_ws/build/aisd_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/aisd/ros2_ws/src/aisd-vahabbayat/aisd_interfaces -DCMAKE_INSTALL_PREFIX=/home/aisd/ros2_ws/install/aisd_interfaces
+[6.846s] Invoking command in '/home/aisd/ros2_ws/build/aisd_interfaces': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/aisd/ros2_ws/build/aisd_interfaces -- -j2 -l2
+[6.916s] [35m[1mScanning dependencies of target aisd_interfaces__cpp[0m
+[6.924s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.938s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.766s] [35m[1mScanning dependencies of target aisd_interfaces__rosidl_generator_c[0m
+[7.811s] [  5%] Built target aisd_interfaces__cpp
+[7.821s] [  7%] [32mBuilding C object CMakeFiles/aisd_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aisd_interfaces/msg/detail/hand__functions.c.o[0m
+[7.840s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[8.159s] [ 12%] [32mBuilding C object CMakeFiles/aisd_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aisd_interfaces/srv/detail/speak__functions.c.o[0m
+[8.276s] [35m[1mScanning dependencies of target aisd_interfaces__rosidl_typesupport_cpp[0m
+[8.285s] [ 15%] [32m[1mLinking C shared library libaisd_interfaces__rosidl_generator_c.so[0m
+[8.335s] [ 17%] [32mBuilding CXX object CMakeFiles/aisd_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aisd_interfaces/msg/hand__type_support.cpp.o[0m
+[8.341s] [ 17%] Built target aisd_interfaces__rosidl_generator_c
+[8.359s] [ 20%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.765s] [35m[1mScanning dependencies of target aisd_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[8.935s] [ 23%] [32mBuilding CXX object CMakeFiles/aisd_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aisd_interfaces/msg/detail/dds_fastrtps/hand__type_support.cpp.o[0m
+[10.043s] [ 25%] [32mBuilding CXX object CMakeFiles/aisd_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aisd_interfaces/srv/speak__type_support.cpp.o[0m
+[10.062s] [ 28%] [32mBuilding CXX object CMakeFiles/aisd_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aisd_interfaces/srv/detail/dds_fastrtps/speak__type_support.cpp.o[0m
+[10.447s] [ 30%] [32m[1mLinking CXX shared library libaisd_interfaces__rosidl_typesupport_cpp.so[0m
+[11.210s] [ 30%] Built target aisd_interfaces__rosidl_typesupport_cpp
+[11.311s] [ 33%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[11.906s] [ 35%] [32m[1mLinking CXX shared library libaisd_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[13.172s] [ 35%] Built target aisd_interfaces__rosidl_typesupport_fastrtps_cpp
+[13.268s] [ 38%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[13.331s] [35m[1mScanning dependencies of target aisd_interfaces__rosidl_typesupport_introspection_cpp[0m
+[13.531s] [ 41%] [32mBuilding CXX object CMakeFiles/aisd_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aisd_interfaces/msg/detail/hand__type_support.cpp.o[0m
+[13.979s] [ 43%] [32mBuilding CXX object CMakeFiles/aisd_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aisd_interfaces/srv/detail/speak__type_support.cpp.o[0m
+[13.981s] [35m[1mScanning dependencies of target aisd_interfaces__rosidl_typesupport_introspection_c[0m
+[14.031s] [ 46%] [32mBuilding C object CMakeFiles/aisd_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aisd_interfaces/msg/detail/hand__type_support.c.o[0m
+[14.118s] [ 48%] [32mBuilding C object CMakeFiles/aisd_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aisd_interfaces/srv/detail/speak__type_support.c.o[0m
+[14.332s] [ 51%] [32m[1mLinking C shared library libaisd_interfaces__rosidl_typesupport_introspection_c.so[0m
+[14.468s] [ 53%] [32m[1mLinking CXX shared library libaisd_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[14.510s] [ 53%] Built target aisd_interfaces__rosidl_typesupport_introspection_c
+[14.558s] [ 53%] Built target aisd_interfaces__rosidl_typesupport_introspection_cpp
+[14.592s] [ 56%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[14.593s] [ 58%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[15.368s] [35m[1mScanning dependencies of target aisd_interfaces__rosidl_typesupport_c[0m
+[15.434s] [ 61%] [32mBuilding CXX object CMakeFiles/aisd_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aisd_interfaces/msg/hand__type_support.cpp.o[0m
+[15.481s] [35m[1mScanning dependencies of target aisd_interfaces__rosidl_typesupport_fastrtps_c[0m
+[15.535s] [ 64%] [32mBuilding CXX object CMakeFiles/aisd_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aisd_interfaces/srv/speak__type_support.cpp.o[0m
+[15.539s] [ 66%] [32mBuilding CXX object CMakeFiles/aisd_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aisd_interfaces/msg/detail/hand__type_support_c.cpp.o[0m
+[15.607s] [ 69%] [32m[1mLinking CXX shared library libaisd_interfaces__rosidl_typesupport_c.so[0m
+[15.848s] [ 69%] Built target aisd_interfaces__rosidl_typesupport_c
+[15.879s] [ 71%] [32mBuilding CXX object CMakeFiles/aisd_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aisd_interfaces/srv/detail/speak__type_support_c.cpp.o[0m
+[17.454s] [ 74%] [32m[1mLinking CXX shared library libaisd_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[18.040s] [ 74%] Built target aisd_interfaces__rosidl_typesupport_fastrtps_c
+[18.247s] [35m[1mScanning dependencies of target aisd_interfaces[0m
+[18.420s] [ 74%] Built target aisd_interfaces
+[18.543s] [35m[1mScanning dependencies of target aisd_interfaces__py[0m
+[19.121s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[19.921s] [ 76%] Built target aisd_interfaces__py
+[20.005s] [35m[1mScanning dependencies of target aisd_interfaces__python[0m
+[20.367s] [ 79%] [32mBuilding C object CMakeFiles/aisd_interfaces__python.dir/rosidl_generator_py/aisd_interfaces/msg/_hand_s.c.o[0m
+[20.373s] [ 82%] [32mBuilding C object CMakeFiles/aisd_interfaces__python.dir/rosidl_generator_py/aisd_interfaces/srv/_speak_s.c.o[0m
+[21.256s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/aisd_interfaces/libaisd_interfaces__python.so[0m
+[21.362s] [ 84%] Built target aisd_interfaces__python
+[21.424s] [35m[1mScanning dependencies of target aisd_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[21.424s] [35m[1mScanning dependencies of target aisd_interfaces__rosidl_typesupport_c__pyext[0m
+[21.694s] [ 87%] [32mBuilding C object CMakeFiles/aisd_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/aisd_interfaces/_aisd_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[21.706s] [ 89%] [32mBuilding C object CMakeFiles/aisd_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/aisd_interfaces/_aisd_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[21.909s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/aisd_interfaces/aisd_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[22.521s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/aisd_interfaces/aisd_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[22.768s] [ 94%] Built target aisd_interfaces__rosidl_typesupport_introspection_c__pyext
+[23.229s] [ 94%] Built target aisd_interfaces__rosidl_typesupport_c__pyext
+[23.322s] [35m[1mScanning dependencies of target aisd_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[23.653s] [ 97%] [32mBuilding C object CMakeFiles/aisd_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/aisd_interfaces/_aisd_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[24.264s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/aisd_interfaces/aisd_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[24.516s] [100%] Built target aisd_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[24.552s] Invoked command in '/home/aisd/ros2_ws/build/aisd_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/aisd/ros2_ws/build/aisd_interfaces -- -j2 -l2
+[26.543s] Invoking command in '/home/aisd/ros2_ws/build/aisd_interfaces': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/aisd/ros2_ws/build/aisd_interfaces
+[26.567s] -- Install configuration: ""
+[26.568s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/share/ament_index/resource_index/rosidl_interfaces/aisd_interfaces
+[26.568s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces
+[26.568s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg
+[26.569s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/rosidl_generator_c__visibility_control.h
+[26.569s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/hand.h
+[26.570s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/detail
+[26.570s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/detail/hand__functions.h
+[26.571s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/detail/hand__struct.h
+[26.571s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/detail/hand__functions.c
+[26.572s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/detail/hand__type_support.h
+[26.572s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv
+[26.573s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv/speak.h
+[26.573s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv/detail
+[26.573s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv/detail/speak__functions.h
+[26.573s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv/detail/speak__functions.c
+[26.574s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv/detail/speak__type_support.h
+[26.574s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv/detail/speak__struct.h
+[26.575s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/environment/library_path.sh
+[26.575s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/environment/library_path.dsv
+[26.575s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/lib/libaisd_interfaces__rosidl_generator_c.so
+[26.575s] -- Set runtime path of "/home/aisd/ros2_ws/install/aisd_interfaces/lib/libaisd_interfaces__rosidl_generator_c.so" to ""
+[26.576s] -- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces
+[26.576s] -- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg
+[26.577s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[26.577s] -- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/detail
+[26.577s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/detail/hand__rosidl_typesupport_fastrtps_c.h
+[26.577s] -- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv
+[26.577s] -- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv/detail
+[26.577s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv/detail/speak__rosidl_typesupport_fastrtps_c.h
+[26.577s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/lib/libaisd_interfaces__rosidl_typesupport_fastrtps_c.so
+[26.578s] -- Set runtime path of "/home/aisd/ros2_ws/install/aisd_interfaces/lib/libaisd_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[26.579s] -- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces
+[26.579s] -- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg
+[26.579s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[26.579s] -- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/detail
+[26.580s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/detail/dds_fastrtps
+[26.580s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/detail/hand__rosidl_typesupport_fastrtps_cpp.hpp
+[26.581s] -- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv
+[26.581s] -- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv/detail
+[26.581s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv/detail/dds_fastrtps
+[26.581s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv/detail/speak__rosidl_typesupport_fastrtps_cpp.hpp
+[26.582s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/lib/libaisd_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[26.583s] -- Set runtime path of "/home/aisd/ros2_ws/install/aisd_interfaces/lib/libaisd_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[26.583s] -- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces
+[26.583s] -- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg
+[26.583s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[26.585s] -- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/detail
+[26.585s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/detail/hand__type_support.c
+[26.585s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/detail/hand__rosidl_typesupport_introspection_c.h
+[26.586s] -- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv
+[26.586s] -- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv/detail
+[26.586s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv/detail/speak__rosidl_typesupport_introspection_c.h
+[26.587s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv/detail/speak__type_support.c
+[26.588s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/lib/libaisd_interfaces__rosidl_typesupport_introspection_c.so
+[26.589s] -- Set runtime path of "/home/aisd/ros2_ws/install/aisd_interfaces/lib/libaisd_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[26.589s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/lib/libaisd_interfaces__rosidl_typesupport_c.so
+[26.591s] -- Set runtime path of "/home/aisd/ros2_ws/install/aisd_interfaces/lib/libaisd_interfaces__rosidl_typesupport_c.so" to ""
+[26.591s] -- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces
+[26.592s] -- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg
+[26.592s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/hand.hpp
+[26.593s] -- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/detail
+[26.593s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/detail/hand__builder.hpp
+[26.593s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/detail/hand__struct.hpp
+[26.595s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/detail/hand__traits.hpp
+[26.596s] -- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv
+[26.596s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv/speak.hpp
+[26.596s] -- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv/detail
+[26.596s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv/detail/speak__traits.hpp
+[26.596s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv/detail/speak__builder.hpp
+[26.596s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv/detail/speak__struct.hpp
+[26.598s] -- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces
+[26.598s] -- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg
+[26.598s] -- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/detail
+[26.598s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/detail/hand__type_support.cpp
+[26.598s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/detail/hand__rosidl_typesupport_introspection_cpp.hpp
+[26.599s] -- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv
+[26.600s] -- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv/detail
+[26.600s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv/detail/speak__rosidl_typesupport_introspection_cpp.hpp
+[26.600s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv/detail/speak__type_support.cpp
+[26.601s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/lib/libaisd_interfaces__rosidl_typesupport_introspection_cpp.so
+[26.602s] -- Set runtime path of "/home/aisd/ros2_ws/install/aisd_interfaces/lib/libaisd_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[26.604s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/lib/libaisd_interfaces__rosidl_typesupport_cpp.so
+[26.605s] -- Set runtime path of "/home/aisd/ros2_ws/install/aisd_interfaces/lib/libaisd_interfaces__rosidl_typesupport_cpp.so" to ""
+[26.605s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/environment/pythonpath.sh
+[26.606s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/environment/pythonpath.dsv
+[26.606s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/lib/python3.8/site-packages/aisd_interfaces/__init__.py
+[26.639s] Compiling '/home/aisd/ros2_ws/install/aisd_interfaces/lib/python3.8/site-packages/aisd_interfaces/__init__.py'...
+[26.645s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/lib/python3.8/site-packages/aisd_interfaces/msg
+[26.645s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/lib/python3.8/site-packages/aisd_interfaces/msg/_hand.py
+[26.645s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/lib/python3.8/site-packages/aisd_interfaces/msg/_hand_s.c
+[26.646s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/lib/python3.8/site-packages/aisd_interfaces/msg/__init__.py
+[26.646s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/lib/python3.8/site-packages/aisd_interfaces/srv
+[26.646s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/lib/python3.8/site-packages/aisd_interfaces/srv/_speak.py
+[26.647s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/lib/python3.8/site-packages/aisd_interfaces/srv/_speak_s.c
+[26.647s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/lib/python3.8/site-packages/aisd_interfaces/srv/__init__.py
+[26.647s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/lib/python3.8/site-packages/aisd_interfaces/aisd_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[26.648s] -- Set runtime path of "/home/aisd/ros2_ws/install/aisd_interfaces/lib/python3.8/site-packages/aisd_interfaces/aisd_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[26.648s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/lib/python3.8/site-packages/aisd_interfaces/aisd_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[26.654s] -- Set runtime path of "/home/aisd/ros2_ws/install/aisd_interfaces/lib/python3.8/site-packages/aisd_interfaces/aisd_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[26.655s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/lib/python3.8/site-packages/aisd_interfaces/aisd_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[26.655s] -- Set runtime path of "/home/aisd/ros2_ws/install/aisd_interfaces/lib/python3.8/site-packages/aisd_interfaces/aisd_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[26.656s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/lib/libaisd_interfaces__python.so
+[26.656s] -- Set runtime path of "/home/aisd/ros2_ws/install/aisd_interfaces/lib/libaisd_interfaces__python.so" to ""
+[26.657s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/msg/Hand.idl
+[26.657s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/srv/Speak.idl
+[26.658s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/msg/Hand.msg
+[26.658s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/srv/Speak.srv
+[26.659s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/srv/Speak_Request.msg
+[26.659s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/srv/Speak_Response.msg
+[26.671s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/share/ament_index/resource_index/package_run_dependencies/aisd_interfaces
+[26.674s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/share/ament_index/resource_index/parent_prefix_path/aisd_interfaces
+[26.674s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/environment/ament_prefix_path.sh
+[26.675s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/environment/ament_prefix_path.dsv
+[26.675s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/environment/path.sh
+[26.675s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/environment/path.dsv
+[26.676s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/local_setup.bash
+[26.676s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/local_setup.sh
+[26.676s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/local_setup.zsh
+[26.677s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/local_setup.dsv
+[26.677s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/package.dsv
+[26.677s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/share/ament_index/resource_index/packages/aisd_interfaces
+[26.679s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/cmake/aisd_interfaces__rosidl_generator_cExport.cmake
+[26.679s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/cmake/aisd_interfaces__rosidl_generator_cExport-noconfig.cmake
+[26.679s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/cmake/aisd_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[26.679s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/cmake/aisd_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[26.680s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/cmake/aisd_interfaces__rosidl_typesupport_cExport.cmake
+[26.680s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/cmake/aisd_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[26.680s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/cmake/aisd_interfaces__rosidl_generator_cppExport.cmake
+[26.681s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/cmake/aisd_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[26.683s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/cmake/aisd_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[26.683s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/cmake/aisd_interfaces__rosidl_typesupport_cppExport.cmake
+[26.683s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/cmake/aisd_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[26.684s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/cmake/rosidl_cmake-extras.cmake
+[26.684s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[26.684s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[26.685s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[26.685s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[26.685s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[26.685s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[26.686s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/cmake/aisd_interfacesConfig.cmake
+[26.687s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/cmake/aisd_interfacesConfig-version.cmake
+[26.687s] -- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/package.xml
+[26.697s] Invoked command in '/home/aisd/ros2_ws/build/aisd_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/aisd/ros2_ws/build/aisd_interfaces

@@ -1,0 +1,4 @@
+[console_scripts]
+hands = aisd_vision.hands:main
+image_publisher = aisd_vision.image_publisher:main
+

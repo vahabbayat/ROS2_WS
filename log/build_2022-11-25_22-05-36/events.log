@@ -1,0 +1,581 @@
+[0.000000] (-) TimerEvent: {}
+[0.000205] (aisd_interfaces) JobQueued: {'identifier': 'aisd_interfaces', 'dependencies': OrderedDict()}
+[0.000241] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.000261] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.000278] (aisd_motion) JobQueued: {'identifier': 'aisd_motion', 'dependencies': OrderedDict([('aisd_interfaces', '/home/aisd/ros2_ws/install/aisd_interfaces')])}
+[0.000299] (aisd_vision) JobQueued: {'identifier': 'aisd_vision', 'dependencies': OrderedDict([('aisd_interfaces', '/home/aisd/ros2_ws/install/aisd_interfaces')])}
+[0.000317] (aisd_interfaces) JobStarted: {'identifier': 'aisd_interfaces'}
+[0.018692] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.074476] (aisd_interfaces) JobProgress: {'identifier': 'aisd_interfaces', 'progress': 'cmake'}
+[0.087738] (aisd_interfaces) JobProgress: {'identifier': 'aisd_interfaces', 'progress': 'build'}
+[0.090993] (aisd_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aisd/ros2_ws/build/aisd_interfaces', '--', '-j2', '-l2'], 'cwd': '/home/aisd/ros2_ws/build/aisd_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aisd'), ('SSH_CLIENT', '10.0.2.2 4089 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/aisd'), ('OLDPWD', '/home/aisd/aisd_ws'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/opt/ros/galactic/'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'aisd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/aisd/.local/bin:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/aisd/ros2_ws/build/aisd_interfaces'), ('SSH_CONNECTION', '10.0.2.2 4089 10.0.2.15 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.098246] (-) TimerEvent: {}
+[0.191122] (aisd_interfaces) StdoutLine: {'line': b'[  2%] Built target aisd_interfaces__cpp\n'}
+[0.199215] (-) TimerEvent: {}
+[0.209958] (aisd_interfaces) StdoutLine: {'line': b'[ 12%] Built target aisd_interfaces__rosidl_generator_c\n'}
+[0.261591] (aisd_interfaces) StdoutLine: {'line': b'[ 23%] Built target aisd_interfaces__rosidl_typesupport_cpp\n'}
+[0.271616] (aisd_interfaces) StdoutLine: {'line': b'[ 33%] Built target aisd_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.299766] (-) TimerEvent: {}
+[0.322381] (aisd_interfaces) StdoutLine: {'line': b'[ 43%] Built target aisd_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.334459] (aisd_interfaces) StdoutLine: {'line': b'[ 53%] Built target aisd_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.385097] (aisd_interfaces) StdoutLine: {'line': b'[ 64%] Built target aisd_interfaces__rosidl_typesupport_c\n'}
+[0.399949] (-) TimerEvent: {}
+[0.401655] (aisd_interfaces) StdoutLine: {'line': b'[ 74%] Built target aisd_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.427689] (aisd_interfaces) StdoutLine: {'line': b'[ 74%] Built target aisd_interfaces\n'}
+[0.461785] (aisd_interfaces) StdoutLine: {'line': b'[ 76%] Built target aisd_interfaces__py\n'}
+[0.500238] (-) TimerEvent: {}
+[0.526251] (aisd_interfaces) StdoutLine: {'line': b'[ 84%] Built target aisd_interfaces__python\n'}
+[0.600547] (aisd_interfaces) StdoutLine: {'line': b'[ 89%] Built target aisd_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.600717] (-) TimerEvent: {}
+[0.618771] (aisd_interfaces) StdoutLine: {'line': b'[ 94%] Built target aisd_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.647366] (aisd_interfaces) StdoutLine: {'line': b'[100%] Built target aisd_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.670717] (aisd_interfaces) CommandEnded: {'returncode': 0}
+[0.701037] (-) TimerEvent: {}
+[0.825301] (aisd_interfaces) JobProgress: {'identifier': 'aisd_interfaces', 'progress': 'install'}
+[0.825630] (-) TimerEvent: {}
+[0.843827] (aisd_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aisd/ros2_ws/build/aisd_interfaces'], 'cwd': '/home/aisd/ros2_ws/build/aisd_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aisd'), ('SSH_CLIENT', '10.0.2.2 4089 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/aisd'), ('OLDPWD', '/home/aisd/aisd_ws'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/opt/ros/galactic/'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'aisd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/aisd/.local/bin:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/aisd/ros2_ws/build/aisd_interfaces'), ('SSH_CONNECTION', '10.0.2.2 4089 10.0.2.15 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.860972] (aisd_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.861140] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/share/ament_index/resource_index/rosidl_interfaces/aisd_interfaces\n'}
+[0.861684] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces\n'}
+[0.861751] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg\n'}
+[0.861814] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.861895] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/hand.h\n'}
+[0.864512] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/detail\n'}
+[0.864786] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/detail/hand__functions.h\n'}
+[0.865051] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/detail/hand__struct.h\n'}
+[0.865252] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/detail/hand__functions.c\n'}
+[0.865322] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/detail/hand__type_support.h\n'}
+[0.865384] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv\n'}
+[0.865444] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv/speak.h\n'}
+[0.865501] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv/detail\n'}
+[0.865559] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv/detail/speak__functions.h\n'}
+[0.865617] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv/detail/speak__functions.c\n'}
+[0.865824] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv/detail/speak__type_support.h\n'}
+[0.865898] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv/detail/speak__struct.h\n'}
+[0.865951] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/environment/library_path.sh\n'}
+[0.866137] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/environment/library_path.dsv\n'}
+[0.868646] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/lib/libaisd_interfaces__rosidl_generator_c.so\n'}
+[0.868824] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces\n'}
+[0.869213] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg\n'}
+[0.869290] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.869371] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/detail\n'}
+[0.869458] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/detail/hand__rosidl_typesupport_fastrtps_c.h\n'}
+[0.869620] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv\n'}
+[0.869770] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv/detail\n'}
+[0.871790] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv/detail/speak__rosidl_typesupport_fastrtps_c.h\n'}
+[0.872046] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/lib/libaisd_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[0.872287] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces\n'}
+[0.872360] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg\n'}
+[0.872680] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.874666] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/detail\n'}
+[0.878495] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/detail/dds_fastrtps\n'}
+[0.878829] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/detail/hand__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.879026] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv\n'}
+[0.880277] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv/detail\n'}
+[0.880352] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv/detail/dds_fastrtps\n'}
+[0.880416] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv/detail/speak__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.880477] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/lib/libaisd_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.880888] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces\n'}
+[0.880959] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg\n'}
+[0.881018] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.881331] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/detail\n'}
+[0.881584] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/detail/hand__type_support.c\n'}
+[0.881751] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/detail/hand__rosidl_typesupport_introspection_c.h\n'}
+[0.881920] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv\n'}
+[0.882900] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv/detail\n'}
+[0.883501] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv/detail/speak__rosidl_typesupport_introspection_c.h\n'}
+[0.884747] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv/detail/speak__type_support.c\n'}
+[0.884823] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/lib/libaisd_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[0.885885] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/lib/libaisd_interfaces__rosidl_typesupport_c.so\n'}
+[0.886170] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces\n'}
+[0.886561] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg\n'}
+[0.886812] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/hand.hpp\n'}
+[0.886892] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/detail\n'}
+[0.887049] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/detail/hand__builder.hpp\n'}
+[0.887205] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/detail/hand__struct.hpp\n'}
+[0.888332] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/detail/hand__traits.hpp\n'}
+[0.888777] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv\n'}
+[0.888848] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv/speak.hpp\n'}
+[0.890117] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv/detail\n'}
+[0.890193] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv/detail/speak__traits.hpp\n'}
+[0.890257] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv/detail/speak__builder.hpp\n'}
+[0.890317] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv/detail/speak__struct.hpp\n'}
+[0.890375] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces\n'}
+[0.890435] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg\n'}
+[0.890493] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/detail\n'}
+[0.890600] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/detail/hand__type_support.cpp\n'}
+[0.890664] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/msg/detail/hand__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.890739] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv\n'}
+[0.890798] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv/detail\n'}
+[0.890855] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv/detail/speak__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.890912] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/include/aisd_interfaces/srv/detail/speak__type_support.cpp\n'}
+[0.890969] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/lib/libaisd_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[0.891025] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/lib/libaisd_interfaces__rosidl_typesupport_cpp.so\n'}
+[0.891082] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/environment/pythonpath.sh\n'}
+[0.891139] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/environment/pythonpath.dsv\n'}
+[0.891196] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/lib/python3.8/site-packages/aisd_interfaces/__init__.py\n'}
+[0.935453] (-) TimerEvent: {}
+[0.941115] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/lib/python3.8/site-packages/aisd_interfaces/msg\n'}
+[0.941380] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/lib/python3.8/site-packages/aisd_interfaces/msg/_hand.py\n'}
+[0.941549] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/lib/python3.8/site-packages/aisd_interfaces/msg/_hand_s.c\n'}
+[0.941615] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/lib/python3.8/site-packages/aisd_interfaces/msg/__init__.py\n'}
+[0.941676] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/lib/python3.8/site-packages/aisd_interfaces/srv\n'}
+[0.941735] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/lib/python3.8/site-packages/aisd_interfaces/srv/_speak.py\n'}
+[0.941989] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/lib/python3.8/site-packages/aisd_interfaces/srv/_speak_s.c\n'}
+[0.942056] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/lib/python3.8/site-packages/aisd_interfaces/srv/__init__.py\n'}
+[0.942116] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/lib/python3.8/site-packages/aisd_interfaces/aisd_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.942176] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/lib/python3.8/site-packages/aisd_interfaces/aisd_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.942233] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/lib/python3.8/site-packages/aisd_interfaces/aisd_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.942790] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/lib/libaisd_interfaces__python.so\n'}
+[0.943343] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/msg/Hand.idl\n'}
+[0.943454] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/srv/Speak.idl\n'}
+[0.944310] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/msg/Hand.msg\n'}
+[0.944411] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/srv/Speak.srv\n'}
+[0.945330] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/srv/Speak_Request.msg\n'}
+[0.945620] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/srv/Speak_Response.msg\n'}
+[0.946153] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/share/ament_index/resource_index/package_run_dependencies/aisd_interfaces\n'}
+[0.946956] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/share/ament_index/resource_index/parent_prefix_path/aisd_interfaces\n'}
+[0.948227] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/environment/ament_prefix_path.sh\n'}
+[0.948558] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/environment/ament_prefix_path.dsv\n'}
+[0.949251] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/environment/path.sh\n'}
+[0.949755] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/environment/path.dsv\n'}
+[0.949917] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/local_setup.bash\n'}
+[0.950361] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/local_setup.sh\n'}
+[0.950529] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/local_setup.zsh\n'}
+[0.950905] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/local_setup.dsv\n'}
+[0.951166] (aisd_interfaces) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/package.dsv\n'}
+[0.951670] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/share/ament_index/resource_index/packages/aisd_interfaces\n'}
+[0.954649] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/cmake/aisd_interfaces__rosidl_generator_cExport.cmake\n'}
+[0.954850] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/cmake/aisd_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.955144] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/cmake/aisd_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.955224] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/cmake/aisd_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.955288] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/cmake/aisd_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[0.955348] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/cmake/aisd_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.955407] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/cmake/aisd_interfaces__rosidl_generator_cppExport.cmake\n'}
+[0.955465] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/cmake/aisd_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.956948] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/cmake/aisd_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.957049] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/cmake/aisd_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[0.957112] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/cmake/aisd_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.957170] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[0.957230] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.960805] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.961011] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.961086] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.961149] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.961208] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.961266] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/cmake/aisd_interfacesConfig.cmake\n'}
+[0.961323] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/cmake/aisd_interfacesConfig-version.cmake\n'}
+[0.961379] (aisd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/package.xml\n'}
+[0.964062] (aisd_interfaces) CommandEnded: {'returncode': 0}
+[1.021330] (my_package) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/my_package', 'build', '--build-base', '/home/aisd/ros2_ws/build/my_package/build', 'install', '--prefix', '/home/aisd/ros2_ws/install/my_package', '--record', '/home/aisd/ros2_ws/build/my_package/install.log', '--single-version-externally-managed'], 'cwd': '/home/aisd/ros2_ws/src/aisd-vahabbayat/my_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aisd', 'SSH_CLIENT': '10.0.2.2 4089 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/aisd', 'OLDPWD': '/home/aisd/aisd_ws', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_colcon_cd_root': '/opt/ros/galactic/', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'aisd', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/aisd/.local/bin:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:11.0', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/galactic', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/aisd/ros2_ws/build/my_package', 'SSH_CONNECTION': '10.0.2.2 4089 10.0.2.15 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/aisd/ros2_ws/install/my_package/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'COLCON': '1'}, 'shell': False}
+[1.175121] (-) TimerEvent: {}
+[1.187995] (aisd_interfaces) JobEnded: {'identifier': 'aisd_interfaces', 'rc': 0}
+[1.191115] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[1.209237] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[1.209634] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[1.209706] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aisd/ros2_ws/build/turtlesim', '--', '-j2', '-l2'], 'cwd': '/home/aisd/ros2_ws/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aisd'), ('SSH_CLIENT', '10.0.2.2 4089 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/aisd'), ('OLDPWD', '/home/aisd/aisd_ws'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/opt/ros/galactic/'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'aisd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/aisd/.local/bin:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/aisd/ros2_ws/build/turtlesim'), ('SSH_CONNECTION', '10.0.2.2 4089 10.0.2.15 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[1.276670] (-) TimerEvent: {}
+[1.281429] (my_package) StdoutLine: {'line': b'running egg_info\n'}
+[1.282551] (my_package) StdoutLine: {'line': b'writing ../../../build/my_package/my_package.egg-info/PKG-INFO\n'}
+[1.283456] (my_package) StdoutLine: {'line': b'writing dependency_links to ../../../build/my_package/my_package.egg-info/dependency_links.txt\n'}
+[1.284785] (my_package) StdoutLine: {'line': b'writing entry points to ../../../build/my_package/my_package.egg-info/entry_points.txt\n'}
+[1.285481] (my_package) StdoutLine: {'line': b'writing requirements to ../../../build/my_package/my_package.egg-info/requires.txt\n'}
+[1.286593] (my_package) StdoutLine: {'line': b'writing top-level names to ../../../build/my_package/my_package.egg-info/top_level.txt\n'}
+[1.326601] (turtlesim) StdoutLine: {'line': b'[  1%] Built target turtlesim__cpp\n'}
+[1.330191] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target turtlesim__rosidl_generator_c\n'}
+[1.346274] (my_package) StdoutLine: {'line': b"reading manifest file '../../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[1.349097] (my_package) StdoutLine: {'line': b"writing manifest file '../../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[1.350651] (my_package) StdoutLine: {'line': b'running build\n'}
+[1.351948] (my_package) StdoutLine: {'line': b'running build_py\n'}
+[1.359217] (my_package) StdoutLine: {'line': b'running install\n'}
+[1.359422] (my_package) StdoutLine: {'line': b'running install_lib\n'}
+[1.359495] (my_package) StdoutLine: {'line': b'running install_data\n'}
+[1.359558] (my_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.362797] (my_package) StdoutLine: {'line': b"removing '/home/aisd/ros2_ws/install/my_package/lib/python3.8/site-packages/my_package-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[1.363517] (my_package) StdoutLine: {'line': b'Copying ../../../build/my_package/my_package.egg-info to /home/aisd/ros2_ws/install/my_package/lib/python3.8/site-packages/my_package-0.0.0-py3.8.egg-info\n'}
+[1.365739] (my_package) StdoutLine: {'line': b'running install_scripts\n'}
+[1.377062] (-) TimerEvent: {}
+[1.393187] (my_package) StdoutLine: {'line': b'Installing my_node script to /home/aisd/ros2_ws/install/my_package/lib/my_package\n'}
+[1.394806] (my_package) StdoutLine: {'line': b"writing list of installed files to '/home/aisd/ros2_ws/build/my_package/install.log'\n"}
+[1.400981] (turtlesim) StdoutLine: {'line': b'[ 21%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[1.411739] (turtlesim) StdoutLine: {'line': b'[ 31%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[1.436124] (my_package) CommandEnded: {'returncode': 0}
+[1.458206] (turtlesim) StdoutLine: {'line': b'[ 41%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[1.473904] (turtlesim) StdoutLine: {'line': b'[ 51%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[1.477462] (-) TimerEvent: {}
+[1.501537] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[1.504811] (aisd_motion) JobStarted: {'identifier': 'aisd_motion'}
+[1.515704] (turtlesim) StdoutLine: {'line': b'[ 61%] Built target turtlesim__rosidl_typesupport_c\n'}
+[1.534589] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[1.570475] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim\n'}
+[1.578776] (-) TimerEvent: {}
+[1.626922] (turtlesim) StdoutLine: {'line': b'[ 73%] Built target mimic\n'}
+[1.649344] (turtlesim) StdoutLine: {'line': b'[ 75%] Built target draw_square\n'}
+[1.679413] (-) TimerEvent: {}
+[1.702669] (turtlesim) StdoutLine: {'line': b'[ 76%] Built target turtlesim__py\n'}
+[1.737591] (turtlesim) StdoutLine: {'line': b'[ 78%] Built target turtle_teleop_key\n'}
+[1.780099] (-) TimerEvent: {}
+[1.806022] (turtlesim) StdoutLine: {'line': b'[ 84%] Built target turtlesim_node\n'}
+[1.818226] (turtlesim) StdoutLine: {'line': b'[ 93%] Built target turtlesim__python\n'}
+[1.873432] (turtlesim) StdoutLine: {'line': b'[ 95%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[1.880328] (-) TimerEvent: {}
+[1.898808] (turtlesim) StdoutLine: {'line': b'[ 97%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.935015] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[1.960504] (turtlesim) CommandEnded: {'returncode': 0}
+[1.980704] (-) TimerEvent: {}
+[2.082186] (-) TimerEvent: {}
+[2.184106] (-) TimerEvent: {}
+[2.285570] (-) TimerEvent: {}
+[2.313517] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[2.313813] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aisd/ros2_ws/build/turtlesim'], 'cwd': '/home/aisd/ros2_ws/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aisd'), ('SSH_CLIENT', '10.0.2.2 4089 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/aisd'), ('OLDPWD', '/home/aisd/aisd_ws'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/opt/ros/galactic/'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'aisd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/aisd/.local/bin:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/aisd/ros2_ws/build/turtlesim'), ('SSH_CONNECTION', '10.0.2.2 4089 10.0.2.15 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[2.329294] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.329466] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[2.329547] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim\n'}
+[2.329609] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/msg\n'}
+[2.329668] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/msg/color.h\n'}
+[2.329769] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.329831] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/msg/pose.h\n'}
+[2.329889] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[2.329946] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/color__functions.c\n'}
+[2.330003] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__functions.c\n'}
+[2.330059] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__struct.h\n'}
+[2.330116] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.h\n'}
+[2.330590] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__functions.h\n'}
+[2.330708] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/color__functions.h\n'}
+[2.330782] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/color__struct.h\n'}
+[2.330841] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.h\n'}
+[2.330897] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/action\n'}
+[2.331346] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/action/rotate_absolute.h\n'}
+[2.331429] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[2.331489] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[2.331547] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[2.331603] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[2.332987] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[2.333092] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv\n'}
+[2.333159] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/teleport_absolute.h\n'}
+[2.333227] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/set_pen.h\n'}
+[2.333287] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/teleport_relative.h\n'}
+[2.333345] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[2.333401] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[2.333457] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[2.333514] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__functions.h\n'}
+[2.333570] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[2.333668] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[2.333729] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__functions.c\n'}
+[2.333798] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.h\n'}
+[2.333855] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[2.333912] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__functions.c\n'}
+[2.333969] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__functions.h\n'}
+[2.334026] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[2.334083] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.h\n'}
+[2.334139] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__struct.h\n'}
+[2.334195] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__functions.h\n'}
+[2.334250] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__struct.h\n'}
+[2.334305] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[2.335169] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[2.335293] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__struct.h\n'}
+[2.335358] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__functions.c\n'}
+[2.335418] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[2.335475] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/kill.h\n'}
+[2.335533] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/spawn.h\n'}
+[2.335636] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[2.335706] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[2.336719] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[2.337330] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim\n'}
+[2.337419] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/msg\n'}
+[2.337480] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.337638] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[2.338230] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[2.338319] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[2.338381] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/action\n'}
+[2.338439] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[2.338537] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[2.338604] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv\n'}
+[2.338670] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[2.339150] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[2.339235] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[2.339295] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[2.339352] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[2.339409] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[2.340353] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[2.341246] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim\n'}
+[2.341360] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/msg\n'}
+[2.341471] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.341561] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[2.341624] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/dds_fastrtps\n'}
+[2.341704] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.342218] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.342306] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/action\n'}
+[2.342373] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[2.342476] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/action/detail/dds_fastrtps\n'}
+[2.342598] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.342656] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv\n'}
+[2.343277] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[2.343982] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.344066] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.344128] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/dds_fastrtps\n'}
+[2.344187] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.344244] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.344300] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.344970] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.345963] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim\n'}
+[2.346056] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/msg\n'}
+[2.346119] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.346179] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[2.346236] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[2.346321] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[2.346394] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.c\n'}
+[2.346453] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.c\n'}
+[2.346510] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/action\n'}
+[2.346575] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[2.346632] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[2.346688] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[2.346744] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv\n'}
+[2.346799] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[2.346860] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[2.346916] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.c\n'}
+[2.346971] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[2.347027] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[2.347841] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[2.347934] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[2.347998] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[2.348056] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[2.348113] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.c\n'}
+[2.348179] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[2.348269] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[2.349144] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[2.349894] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim\n'}
+[2.349987] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/msg\n'}
+[2.350052] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/msg/color.hpp\n'}
+[2.350113] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[2.350171] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__struct.hpp\n'}
+[2.350860] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/color__struct.hpp\n'}
+[2.350952] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/color__builder.hpp\n'}
+[2.351015] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__traits.hpp\n'}
+[2.351075] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__builder.hpp\n'}
+[2.351133] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/color__traits.hpp\n'}
+[2.351240] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/msg/pose.hpp\n'}
+[2.351304] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/action\n'}
+[2.351362] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/action/rotate_absolute.hpp\n'}
+[2.351418] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[2.351474] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[2.351538] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[2.351594] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[2.351650] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv\n'}
+[2.351706] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/teleport_absolute.hpp\n'}
+[2.358591] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/set_pen.hpp\n'}
+[2.358755] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/kill.hpp\n'}
+[2.358831] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/spawn.hpp\n'}
+[2.358889] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/teleport_relative.hpp\n'}
+[2.358945] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[2.359106] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[2.359179] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[2.359237] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__struct.hpp\n'}
+[2.359295] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[2.359356] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[2.359412] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[2.359468] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[2.359525] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[2.359580] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__traits.hpp\n'}
+[2.359634] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[2.359689] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[2.359754] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__builder.hpp\n'}
+[2.359803] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[2.359854] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[2.360852] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[2.360987] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim\n'}
+[2.361096] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/msg\n'}
+[2.361154] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[2.361209] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.361269] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.cpp\n'}
+[2.361321] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.361373] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[2.361424] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/action\n'}
+[2.361476] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[2.361527] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[2.361579] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.361631] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv\n'}
+[2.361683] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[2.361734] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.362457] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[2.362543] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.362602] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.362657] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[2.362717] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.362770] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[2.362822] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[2.362873] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.362998] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[2.363543] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[2.364773] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[2.365550] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[2.365646] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[2.366474] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/__init__.py\n'}
+[2.385968] (-) TimerEvent: {}
+[2.412027] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action\n'}
+[2.412197] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/_rotate_absolute.py\n'}
+[2.412278] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/__init__.py\n'}
+[2.412902] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[2.412974] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg\n'}
+[2.413036] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_color_s.c\n'}
+[2.413096] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_pose.py\n'}
+[2.413153] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_color.py\n'}
+[2.413360] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_pose_s.c\n'}
+[2.413575] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/__init__.py\n'}
+[2.415520] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv\n'}
+[2.415680] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_kill_s.c\n'}
+[2.416019] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_kill.py\n'}
+[2.416086] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_spawn_s.c\n'}
+[2.416302] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_set_pen_s.c\n'}
+[2.416649] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_spawn.py\n'}
+[2.416867] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/__init__.py\n'}
+[2.416931] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[2.416991] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_set_pen.py\n'}
+[2.417050] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[2.417107] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_relative.py\n'}
+[2.417164] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[2.418941] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[2.419621] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[2.419733] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[2.419799] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/lib/libturtlesim__python.so\n'}
+[2.419861] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[2.419925] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[2.420276] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[2.420352] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[2.422700] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[2.422930] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[2.423159] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[2.423406] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[2.423664] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[2.423729] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[2.423795] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[2.423857] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[2.423942] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[2.424007] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[2.424065] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[2.426745] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[2.426830] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[2.426893] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[2.427108] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[2.427323] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[2.428689] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[2.429188] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[2.429418] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[2.429632] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[2.429845] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[2.429911] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[2.429984] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[2.430191] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[2.430419] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/lib/turtlesim/draw_square\n'}
+[2.430508] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/lib/turtlesim/mimic\n'}
+[2.430569] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/images\n'}
+[2.430633] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[2.430690] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[2.430747] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[2.434449] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/images/galactic.png\n'}
+[2.434731] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[2.434959] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[2.435214] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[2.435429] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/launch\n'}
+[2.435640] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[2.435858] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[2.436068] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[2.436316] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[2.436380] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[2.436439] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[2.436498] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[2.436555] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[2.436612] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[2.436669] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[2.437171] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[2.437238] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/package.dsv\n'}
+[2.437296] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[2.437353] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cExport.cmake\n'}
+[2.437410] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.437467] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.437524] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.437580] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[2.437787] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.437999] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cppExport.cmake\n'}
+[2.438216] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.438277] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.441602] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[2.441775] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.441845] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[2.441908] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.442106] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.442318] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.442539] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.442747] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.442984] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.443189] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[2.443251] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[2.443309] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/install/turtlesim/share/turtlesim/package.xml\n'}
+[2.450711] (turtlesim) CommandEnded: {'returncode': 0}
+[2.490163] (aisd_motion) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/aisd_motion', 'build', '--build-base', '/home/aisd/ros2_ws/build/aisd_motion/build', 'install', '--prefix', '/home/aisd/ros2_ws/install/aisd_motion', '--record', '/home/aisd/ros2_ws/build/aisd_motion/install.log', '--single-version-externally-managed'], 'cwd': '/home/aisd/ros2_ws/src/aisd-vahabbayat/aisd_motion', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aisd', 'SSH_CLIENT': '10.0.2.2 4089 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/aisd/ros2_ws/install/aisd_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/aisd', 'OLDPWD': '/home/aisd/aisd_ws', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_colcon_cd_root': '/opt/ros/galactic/', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'aisd', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/aisd/.local/bin:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:11.0', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/aisd/ros2_ws/install/aisd_interfaces:/opt/ros/galactic', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/aisd/ros2_ws/build/aisd_motion', 'SSH_CONNECTION': '10.0.2.2 4089 10.0.2.15 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/aisd/ros2_ws/install/aisd_motion/lib/python3.8/site-packages:/home/aisd/ros2_ws/install/aisd_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/aisd/ros2_ws/install/aisd_interfaces'}, 'shell': False}
+[2.492201] (-) TimerEvent: {}
+[2.678276] (-) TimerEvent: {}
+[2.721976] (aisd_motion) StdoutLine: {'line': b'running egg_info\n'}
+[2.722816] (aisd_motion) StdoutLine: {'line': b'writing ../../../build/aisd_motion/aisd_motion.egg-info/PKG-INFO\n'}
+[2.727050] (aisd_motion) StdoutLine: {'line': b'writing dependency_links to ../../../build/aisd_motion/aisd_motion.egg-info/dependency_links.txt\n'}
+[2.727538] (aisd_motion) StdoutLine: {'line': b'writing entry points to ../../../build/aisd_motion/aisd_motion.egg-info/entry_points.txt\n'}
+[2.727616] (aisd_motion) StdoutLine: {'line': b'writing requirements to ../../../build/aisd_motion/aisd_motion.egg-info/requires.txt\n'}
+[2.727681] (aisd_motion) StdoutLine: {'line': b'writing top-level names to ../../../build/aisd_motion/aisd_motion.egg-info/top_level.txt\n'}
+[2.767784] (aisd_motion) StdoutLine: {'line': b"reading manifest file '../../../build/aisd_motion/aisd_motion.egg-info/SOURCES.txt'\n"}
+[2.771780] (aisd_motion) StdoutLine: {'line': b"writing manifest file '../../../build/aisd_motion/aisd_motion.egg-info/SOURCES.txt'\n"}
+[2.773127] (aisd_motion) StdoutLine: {'line': b'running build\n'}
+[2.773532] (aisd_motion) StdoutLine: {'line': b'running build_py\n'}
+[2.773766] (aisd_motion) StdoutLine: {'line': b'copying aisd_motion/move.py -> /home/aisd/ros2_ws/build/aisd_motion/build/lib/aisd_motion\n'}
+[2.774911] (aisd_motion) StdoutLine: {'line': b'running install\n'}
+[2.775476] (aisd_motion) StdoutLine: {'line': b'running install_lib\n'}
+[2.776367] (aisd_motion) StdoutLine: {'line': b'copying /home/aisd/ros2_ws/build/aisd_motion/build/lib/aisd_motion/move.py -> /home/aisd/ros2_ws/install/aisd_motion/lib/python3.8/site-packages/aisd_motion\n'}
+[2.777391] (aisd_motion) StdoutLine: {'line': b'byte-compiling /home/aisd/ros2_ws/install/aisd_motion/lib/python3.8/site-packages/aisd_motion/move.py to move.cpython-38.pyc\n'}
+[2.778857] (-) TimerEvent: {}
+[2.779500] (aisd_motion) StdoutLine: {'line': b'running install_data\n'}
+[2.779604] (aisd_motion) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.782551] (aisd_motion) StdoutLine: {'line': b"removing '/home/aisd/ros2_ws/install/aisd_motion/lib/python3.8/site-packages/aisd_motion-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[2.783175] (aisd_motion) StdoutLine: {'line': b'Copying ../../../build/aisd_motion/aisd_motion.egg-info to /home/aisd/ros2_ws/install/aisd_motion/lib/python3.8/site-packages/aisd_motion-0.0.0-py3.8.egg-info\n'}
+[2.784289] (aisd_motion) StdoutLine: {'line': b'running install_scripts\n'}
+[2.801649] (aisd_motion) StdoutLine: {'line': b'Installing move script to /home/aisd/ros2_ws/install/aisd_motion/lib/aisd_motion\n'}
+[2.805065] (aisd_motion) StdoutLine: {'line': b"writing list of installed files to '/home/aisd/ros2_ws/build/aisd_motion/install.log'\n"}
+[2.834879] (aisd_motion) CommandEnded: {'returncode': 0}
+[2.865849] (aisd_motion) JobEnded: {'identifier': 'aisd_motion', 'rc': 0}
+[2.867126] (aisd_vision) JobStarted: {'identifier': 'aisd_vision'}
+[2.879137] (-) TimerEvent: {}
+[3.078622] (-) TimerEvent: {}
+[3.176845] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[3.179100] (-) TimerEvent: {}
+[3.359370] (-) TimerEvent: {}
+[3.460798] (-) TimerEvent: {}
+[3.564650] (-) TimerEvent: {}
+[3.860447] (-) TimerEvent: {}
+[3.898832] (aisd_vision) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/aisd_vision', 'build', '--build-base', '/home/aisd/ros2_ws/build/aisd_vision/build', 'install', '--prefix', '/home/aisd/ros2_ws/install/aisd_vision', '--record', '/home/aisd/ros2_ws/build/aisd_vision/install.log', '--single-version-externally-managed'], 'cwd': '/home/aisd/ros2_ws/src/aisd-vahabbayat/aisd_vision', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aisd', 'SSH_CLIENT': '10.0.2.2 4089 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/aisd/ros2_ws/install/aisd_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/aisd', 'OLDPWD': '/home/aisd/aisd_ws', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_colcon_cd_root': '/opt/ros/galactic/', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'aisd', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/aisd/.local/bin:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:11.0', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/aisd/ros2_ws/install/aisd_interfaces:/opt/ros/galactic', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/aisd/ros2_ws/build/aisd_vision', 'SSH_CONNECTION': '10.0.2.2 4089 10.0.2.15 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/aisd/ros2_ws/install/aisd_vision/lib/python3.8/site-packages:/home/aisd/ros2_ws/install/aisd_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/aisd/ros2_ws/install/aisd_interfaces'}, 'shell': False}
+[4.163034] (-) TimerEvent: {}
+[4.278906] (-) TimerEvent: {}
+[4.390498] (-) TimerEvent: {}
+[4.494784] (-) TimerEvent: {}
+[4.597254] (-) TimerEvent: {}
+[4.625674] (aisd_vision) StdoutLine: {'line': b'running egg_info\n'}
+[4.626323] (aisd_vision) StdoutLine: {'line': b'writing ../../../build/aisd_vision/aisd_vision.egg-info/PKG-INFO\n'}
+[4.628781] (aisd_vision) StdoutLine: {'line': b'writing dependency_links to ../../../build/aisd_vision/aisd_vision.egg-info/dependency_links.txt\n'}
+[4.629975] (aisd_vision) StdoutLine: {'line': b'writing entry points to ../../../build/aisd_vision/aisd_vision.egg-info/entry_points.txt\n'}
+[4.630076] (aisd_vision) StdoutLine: {'line': b'writing requirements to ../../../build/aisd_vision/aisd_vision.egg-info/requires.txt\n'}
+[4.630208] (aisd_vision) StdoutLine: {'line': b'writing top-level names to ../../../build/aisd_vision/aisd_vision.egg-info/top_level.txt\n'}
+[4.664344] (aisd_vision) StdoutLine: {'line': b"reading manifest file '../../../build/aisd_vision/aisd_vision.egg-info/SOURCES.txt'\n"}
+[4.665414] (aisd_vision) StdoutLine: {'line': b"writing manifest file '../../../build/aisd_vision/aisd_vision.egg-info/SOURCES.txt'\n"}
+[4.666147] (aisd_vision) StdoutLine: {'line': b'running build\n'}
+[4.666245] (aisd_vision) StdoutLine: {'line': b'running build_py\n'}
+[4.666310] (aisd_vision) StdoutLine: {'line': b'running install\n'}
+[4.667506] (aisd_vision) StdoutLine: {'line': b'running install_lib\n'}
+[4.669581] (aisd_vision) StdoutLine: {'line': b'running install_data\n'}
+[4.670235] (aisd_vision) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.672086] (aisd_vision) StdoutLine: {'line': b"removing '/home/aisd/ros2_ws/install/aisd_vision/lib/python3.8/site-packages/aisd_vision-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[4.672646] (aisd_vision) StdoutLine: {'line': b'Copying ../../../build/aisd_vision/aisd_vision.egg-info to /home/aisd/ros2_ws/install/aisd_vision/lib/python3.8/site-packages/aisd_vision-0.0.0-py3.8.egg-info\n'}
+[4.674099] (aisd_vision) StdoutLine: {'line': b'running install_scripts\n'}
+[4.695508] (aisd_vision) StdoutLine: {'line': b'Installing hands script to /home/aisd/ros2_ws/install/aisd_vision/lib/aisd_vision\n'}
+[4.698110] (-) TimerEvent: {}
+[4.698642] (aisd_vision) StdoutLine: {'line': b'Installing image_publisher script to /home/aisd/ros2_ws/install/aisd_vision/lib/aisd_vision\n'}
+[4.698737] (aisd_vision) StdoutLine: {'line': b"writing list of installed files to '/home/aisd/ros2_ws/build/aisd_vision/install.log'\n"}
+[4.725427] (aisd_vision) CommandEnded: {'returncode': 0}
+[4.741823] (aisd_vision) JobEnded: {'identifier': 'aisd_vision', 'rc': 0}
+[4.743599] (-) EventReactorShutdown: {}

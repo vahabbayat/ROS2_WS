@@ -1,0 +1,6 @@
+msg/Hand.idl
+msg/Hand.msg
+srv/Speak.idl
+srv/Speak.srv
+srv/Speak_Request.msg
+srv/Speak_Response.msg

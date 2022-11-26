@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from aisd_interfaces/msg/Hand.msg
+// generated code does not contain a copyright notice
+
+
+module aisd_interfaces {
+  module msg {
+    struct Hand {
+      double xpinky;
+
+      double xindex;
+    };
+  };
+};

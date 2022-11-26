@@ -1,0 +1,22 @@
+[1.035s] Invoking command in '/home/aisd/ros2_ws/src/aisd-vahabbayat/aisd_vision': AMENT_PREFIX_PATH=/home/aisd/ros2_ws/install/aisd_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aisd/ros2_ws/install/aisd_interfaces LD_LIBRARY_PATH=/home/aisd/ros2_ws/install/aisd_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aisd/ros2_ws/install/aisd_vision/lib/python3.8/site-packages:/home/aisd/ros2_ws/install/aisd_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/aisd_vision build --build-base /home/aisd/ros2_ws/build/aisd_vision/build install --prefix /home/aisd/ros2_ws/install/aisd_vision --record /home/aisd/ros2_ws/build/aisd_vision/install.log --single-version-externally-managed
+[1.758s] running egg_info
+[1.759s] writing ../../../build/aisd_vision/aisd_vision.egg-info/PKG-INFO
+[1.761s] writing dependency_links to ../../../build/aisd_vision/aisd_vision.egg-info/dependency_links.txt
+[1.763s] writing entry points to ../../../build/aisd_vision/aisd_vision.egg-info/entry_points.txt
+[1.763s] writing requirements to ../../../build/aisd_vision/aisd_vision.egg-info/requires.txt
+[1.763s] writing top-level names to ../../../build/aisd_vision/aisd_vision.egg-info/top_level.txt
+[1.797s] reading manifest file '../../../build/aisd_vision/aisd_vision.egg-info/SOURCES.txt'
+[1.798s] writing manifest file '../../../build/aisd_vision/aisd_vision.egg-info/SOURCES.txt'
+[1.799s] running build
+[1.799s] running build_py
+[1.799s] running install
+[1.800s] running install_lib
+[1.802s] running install_data
+[1.803s] running install_egg_info
+[1.805s] removing '/home/aisd/ros2_ws/install/aisd_vision/lib/python3.8/site-packages/aisd_vision-0.0.0-py3.8.egg-info' (and everything under it)
+[1.805s] Copying ../../../build/aisd_vision/aisd_vision.egg-info to /home/aisd/ros2_ws/install/aisd_vision/lib/python3.8/site-packages/aisd_vision-0.0.0-py3.8.egg-info
+[1.807s] running install_scripts
+[1.831s] Installing hands script to /home/aisd/ros2_ws/install/aisd_vision/lib/aisd_vision
+[1.831s] Installing image_publisher script to /home/aisd/ros2_ws/install/aisd_vision/lib/aisd_vision
+[1.831s] writing list of installed files to '/home/aisd/ros2_ws/build/aisd_vision/install.log'
+[1.861s] Invoked command in '/home/aisd/ros2_ws/src/aisd-vahabbayat/aisd_vision' returned '0': AMENT_PREFIX_PATH=/home/aisd/ros2_ws/install/aisd_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aisd/ros2_ws/install/aisd_interfaces LD_LIBRARY_PATH=/home/aisd/ros2_ws/install/aisd_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aisd/ros2_ws/install/aisd_vision/lib/python3.8/site-packages:/home/aisd/ros2_ws/install/aisd_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/aisd_vision build --build-base /home/aisd/ros2_ws/build/aisd_vision/build install --prefix /home/aisd/ros2_ws/install/aisd_vision --record /home/aisd/ros2_ws/build/aisd_vision/install.log --single-version-externally-managed

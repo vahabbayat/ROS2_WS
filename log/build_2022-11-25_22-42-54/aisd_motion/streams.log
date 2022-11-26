@@ -1,0 +1,21 @@
+[0.847s] Invoking command in '/home/aisd/ros2_ws/src/aisd-vahabbayat/aisd_motion': AMENT_PREFIX_PATH=/home/aisd/ros2_ws/install/aisd_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aisd/ros2_ws/install/aisd_interfaces LD_LIBRARY_PATH=/home/aisd/ros2_ws/install/aisd_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aisd/ros2_ws/install/aisd_motion/lib/python3.8/site-packages:/home/aisd/ros2_ws/install/aisd_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/aisd_motion build --build-base /home/aisd/ros2_ws/build/aisd_motion/build install --prefix /home/aisd/ros2_ws/install/aisd_motion --record /home/aisd/ros2_ws/build/aisd_motion/install.log --single-version-externally-managed
+[1.276s] running egg_info
+[1.277s] writing ../../../build/aisd_motion/aisd_motion.egg-info/PKG-INFO
+[1.278s] writing dependency_links to ../../../build/aisd_motion/aisd_motion.egg-info/dependency_links.txt
+[1.279s] writing entry points to ../../../build/aisd_motion/aisd_motion.egg-info/entry_points.txt
+[1.280s] writing requirements to ../../../build/aisd_motion/aisd_motion.egg-info/requires.txt
+[1.281s] writing top-level names to ../../../build/aisd_motion/aisd_motion.egg-info/top_level.txt
+[1.337s] reading manifest file '../../../build/aisd_motion/aisd_motion.egg-info/SOURCES.txt'
+[1.339s] writing manifest file '../../../build/aisd_motion/aisd_motion.egg-info/SOURCES.txt'
+[1.341s] running build
+[1.341s] running build_py
+[1.341s] running install
+[1.342s] running install_lib
+[1.345s] running install_data
+[1.345s] running install_egg_info
+[1.347s] removing '/home/aisd/ros2_ws/install/aisd_motion/lib/python3.8/site-packages/aisd_motion-0.0.0-py3.8.egg-info' (and everything under it)
+[1.348s] Copying ../../../build/aisd_motion/aisd_motion.egg-info to /home/aisd/ros2_ws/install/aisd_motion/lib/python3.8/site-packages/aisd_motion-0.0.0-py3.8.egg-info
+[1.349s] running install_scripts
+[1.377s] Installing move script to /home/aisd/ros2_ws/install/aisd_motion/lib/aisd_motion
+[1.378s] writing list of installed files to '/home/aisd/ros2_ws/build/aisd_motion/install.log'
+[1.416s] Invoked command in '/home/aisd/ros2_ws/src/aisd-vahabbayat/aisd_motion' returned '0': AMENT_PREFIX_PATH=/home/aisd/ros2_ws/install/aisd_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aisd/ros2_ws/install/aisd_interfaces LD_LIBRARY_PATH=/home/aisd/ros2_ws/install/aisd_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aisd/ros2_ws/install/aisd_motion/lib/python3.8/site-packages:/home/aisd/ros2_ws/install/aisd_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/aisd_motion build --build-base /home/aisd/ros2_ws/build/aisd_motion/build install --prefix /home/aisd/ros2_ws/install/aisd_motion --record /home/aisd/ros2_ws/build/aisd_motion/install.log --single-version-externally-managed

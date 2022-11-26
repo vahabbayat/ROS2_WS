@@ -1,0 +1,35 @@
+running egg_info
+creating ../../../build/aisd_motion/aisd_motion.egg-info
+writing ../../../build/aisd_motion/aisd_motion.egg-info/PKG-INFO
+writing dependency_links to ../../../build/aisd_motion/aisd_motion.egg-info/dependency_links.txt
+writing entry points to ../../../build/aisd_motion/aisd_motion.egg-info/entry_points.txt
+writing requirements to ../../../build/aisd_motion/aisd_motion.egg-info/requires.txt
+writing top-level names to ../../../build/aisd_motion/aisd_motion.egg-info/top_level.txt
+writing manifest file '../../../build/aisd_motion/aisd_motion.egg-info/SOURCES.txt'
+reading manifest file '../../../build/aisd_motion/aisd_motion.egg-info/SOURCES.txt'
+writing manifest file '../../../build/aisd_motion/aisd_motion.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/aisd/ros2_ws/build/aisd_motion/build
+creating /home/aisd/ros2_ws/build/aisd_motion/build/lib
+creating /home/aisd/ros2_ws/build/aisd_motion/build/lib/aisd_motion
+copying aisd_motion/__init__.py -> /home/aisd/ros2_ws/build/aisd_motion/build/lib/aisd_motion
+copying aisd_motion/move.py -> /home/aisd/ros2_ws/build/aisd_motion/build/lib/aisd_motion
+running install
+running install_lib
+creating /home/aisd/ros2_ws/install/aisd_motion/lib/python3.8/site-packages/aisd_motion
+copying /home/aisd/ros2_ws/build/aisd_motion/build/lib/aisd_motion/__init__.py -> /home/aisd/ros2_ws/install/aisd_motion/lib/python3.8/site-packages/aisd_motion
+copying /home/aisd/ros2_ws/build/aisd_motion/build/lib/aisd_motion/move.py -> /home/aisd/ros2_ws/install/aisd_motion/lib/python3.8/site-packages/aisd_motion
+byte-compiling /home/aisd/ros2_ws/install/aisd_motion/lib/python3.8/site-packages/aisd_motion/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/aisd/ros2_ws/install/aisd_motion/lib/python3.8/site-packages/aisd_motion/move.py to move.cpython-38.pyc
+running install_data
+creating /home/aisd/ros2_ws/install/aisd_motion/share/ament_index
+creating /home/aisd/ros2_ws/install/aisd_motion/share/ament_index/resource_index
+creating /home/aisd/ros2_ws/install/aisd_motion/share/ament_index/resource_index/packages
+copying resource/aisd_motion -> /home/aisd/ros2_ws/install/aisd_motion/share/ament_index/resource_index/packages
+copying package.xml -> /home/aisd/ros2_ws/install/aisd_motion/share/aisd_motion
+running install_egg_info
+Copying ../../../build/aisd_motion/aisd_motion.egg-info to /home/aisd/ros2_ws/install/aisd_motion/lib/python3.8/site-packages/aisd_motion-0.0.0-py3.8.egg-info
+running install_scripts
+Installing move script to /home/aisd/ros2_ws/install/aisd_motion/lib/aisd_motion
+writing list of installed files to '/home/aisd/ros2_ws/build/aisd_motion/install.log'

@@ -1,0 +1,375 @@
+[0.374s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.375s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f0356bf7bb0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=2, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f0356bf7bb0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f0356c03160>)
+[0.427s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.427s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.427s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.427s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.427s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.427s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.427s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/aisd/ros2_ws'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/aisd-vahabbayat) by extensions ['ignore', 'ignore_ament_install']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/aisd-vahabbayat) by extension 'ignore'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/aisd-vahabbayat) by extension 'ignore_ament_install'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/aisd-vahabbayat) by extensions ['colcon_pkg']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/aisd-vahabbayat) by extension 'colcon_pkg'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/aisd-vahabbayat) by extensions ['colcon_meta']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/aisd-vahabbayat) by extension 'colcon_meta'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/aisd-vahabbayat) by extensions ['ros']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/aisd-vahabbayat) by extension 'ros'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/aisd-vahabbayat) by extensions ['cmake', 'python']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/aisd-vahabbayat) by extension 'cmake'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/aisd-vahabbayat) by extension 'python'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/aisd-vahabbayat) by extensions ['python_setup_py']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/aisd-vahabbayat) by extension 'python_setup_py'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/aisd-vahabbayat/aisd_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/aisd-vahabbayat/aisd_interfaces) by extension 'ignore'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/aisd-vahabbayat/aisd_interfaces) by extension 'ignore_ament_install'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/aisd-vahabbayat/aisd_interfaces) by extensions ['colcon_pkg']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/aisd-vahabbayat/aisd_interfaces) by extension 'colcon_pkg'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/aisd-vahabbayat/aisd_interfaces) by extensions ['colcon_meta']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/aisd-vahabbayat/aisd_interfaces) by extension 'colcon_meta'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/aisd-vahabbayat/aisd_interfaces) by extensions ['ros']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/aisd-vahabbayat/aisd_interfaces) by extension 'ros'
+[0.462s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aisd-vahabbayat/aisd_interfaces' with type 'ros.ament_cmake' and name 'aisd_interfaces'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/aisd-vahabbayat/aisd_motion) by extensions ['ignore', 'ignore_ament_install']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/aisd-vahabbayat/aisd_motion) by extension 'ignore'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/aisd-vahabbayat/aisd_motion) by extension 'ignore_ament_install'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/aisd-vahabbayat/aisd_motion) by extensions ['colcon_pkg']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/aisd-vahabbayat/aisd_motion) by extension 'colcon_pkg'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/aisd-vahabbayat/aisd_motion) by extensions ['colcon_meta']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/aisd-vahabbayat/aisd_motion) by extension 'colcon_meta'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/aisd-vahabbayat/aisd_motion) by extensions ['ros']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/aisd-vahabbayat/aisd_motion) by extension 'ros'
+[0.464s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aisd-vahabbayat/aisd_motion' with type 'ros.ament_python' and name 'aisd_motion'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/aisd-vahabbayat/aisd_vision) by extensions ['ignore', 'ignore_ament_install']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/aisd-vahabbayat/aisd_vision) by extension 'ignore'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/aisd-vahabbayat/aisd_vision) by extension 'ignore_ament_install'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/aisd-vahabbayat/aisd_vision) by extensions ['colcon_pkg']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/aisd-vahabbayat/aisd_vision) by extension 'colcon_pkg'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/aisd-vahabbayat/aisd_vision) by extensions ['colcon_meta']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/aisd-vahabbayat/aisd_vision) by extension 'colcon_meta'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/aisd-vahabbayat/aisd_vision) by extensions ['ros']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/aisd-vahabbayat/aisd_vision) by extension 'ros'
+[0.467s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aisd-vahabbayat/aisd_vision' with type 'ros.ament_python' and name 'aisd_vision'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore_ament_install'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_pkg']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_pkg'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_meta']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_meta'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ros']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ros'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['cmake', 'python']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'cmake'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['python_setup_py']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python_setup_py'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) by extension 'ignore'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) ignored
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extension 'ignore'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) ignored
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) by extension 'ignore'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) ignored
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore_ament_install'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_pkg']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_pkg'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_meta']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_meta'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ros']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ros'
+[0.474s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_tutorials/turtlesim' with type 'ros.ament_cmake' and name 'turtlesim'
+[0.474s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.474s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.474s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.474s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.474s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.530s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.530s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.536s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 181 installed packages in /opt/ros/galactic
+[0.538s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.636s] Level 5:colcon.colcon_core.verb:set package 'aisd_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.636s] Level 5:colcon.colcon_core.verb:set package 'aisd_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.636s] Level 5:colcon.colcon_core.verb:set package 'aisd_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.636s] Level 5:colcon.colcon_core.verb:set package 'aisd_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.636s] Level 5:colcon.colcon_core.verb:set package 'aisd_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.636s] Level 5:colcon.colcon_core.verb:set package 'aisd_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.636s] Level 5:colcon.colcon_core.verb:set package 'aisd_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.636s] Level 5:colcon.colcon_core.verb:set package 'aisd_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.636s] Level 5:colcon.colcon_core.verb:set package 'aisd_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.636s] DEBUG:colcon.colcon_core.verb:Building package 'aisd_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aisd/ros2_ws/build/aisd_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aisd/ros2_ws/install/aisd_interfaces', 'merge_install': False, 'path': '/home/aisd/ros2_ws/src/aisd-vahabbayat/aisd_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.638s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_args' from command line to 'None'
+[0.638s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target' from command line to 'None'
+[0.638s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.638s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.638s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_first' from command line to 'False'
+[0.638s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_force_configure' from command line to 'False'
+[0.639s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'ament_cmake_args' from command line to 'None'
+[0.639s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.639s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.639s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aisd/ros2_ws/build/turtlesim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aisd/ros2_ws/install/turtlesim', 'merge_install': False, 'path': '/home/aisd/ros2_ws/src/ros_tutorials/turtlesim', 'symlink_install': False, 'test_result_base': None}
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'aisd_motion' build argument 'cmake_args' from command line to 'None'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'aisd_motion' build argument 'cmake_target' from command line to 'None'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'aisd_motion' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'aisd_motion' build argument 'cmake_clean_cache' from command line to 'False'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'aisd_motion' build argument 'cmake_clean_first' from command line to 'False'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'aisd_motion' build argument 'cmake_force_configure' from command line to 'False'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'aisd_motion' build argument 'ament_cmake_args' from command line to 'None'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'aisd_motion' build argument 'catkin_cmake_args' from command line to 'None'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'aisd_motion' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.641s] DEBUG:colcon.colcon_core.verb:Building package 'aisd_motion' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aisd/ros2_ws/build/aisd_motion', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aisd/ros2_ws/install/aisd_motion', 'merge_install': False, 'path': '/home/aisd/ros2_ws/src/aisd-vahabbayat/aisd_motion', 'symlink_install': False, 'test_result_base': None}
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'aisd_vision' build argument 'cmake_args' from command line to 'None'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'aisd_vision' build argument 'cmake_target' from command line to 'None'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'aisd_vision' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'aisd_vision' build argument 'cmake_clean_cache' from command line to 'False'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'aisd_vision' build argument 'cmake_clean_first' from command line to 'False'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'aisd_vision' build argument 'cmake_force_configure' from command line to 'False'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'aisd_vision' build argument 'ament_cmake_args' from command line to 'None'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'aisd_vision' build argument 'catkin_cmake_args' from command line to 'None'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'aisd_vision' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.644s] DEBUG:colcon.colcon_core.verb:Building package 'aisd_vision' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aisd/ros2_ws/build/aisd_vision', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aisd/ros2_ws/install/aisd_vision', 'merge_install': False, 'path': '/home/aisd/ros2_ws/src/aisd-vahabbayat/aisd_vision', 'symlink_install': False, 'test_result_base': None}
+[0.645s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.655s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.657s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aisd/ros2_ws/src/aisd-vahabbayat/aisd_interfaces' with build type 'ament_cmake'
+[0.657s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aisd/ros2_ws/src/aisd-vahabbayat/aisd_interfaces'
+[0.703s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.703s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.703s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.715s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aisd/ros2_ws/src/ros_tutorials/turtlesim' with build type 'ament_cmake'
+[0.723s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aisd/ros2_ws/src/ros_tutorials/turtlesim'
+[0.723s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.723s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.753s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aisd/ros2_ws/build/aisd_interfaces': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/aisd/ros2_ws/build/aisd_interfaces -- -j2 -l2
+[0.792s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aisd/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/aisd/ros2_ws/build/turtlesim -- -j2 -l2
+[1.831s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aisd/ros2_ws/build/aisd_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/aisd/ros2_ws/build/aisd_interfaces -- -j2 -l2
+[2.079s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aisd/ros2_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/aisd/ros2_ws/build/turtlesim -- -j2 -l2
+[2.198s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aisd/ros2_ws/build/aisd_interfaces': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/aisd/ros2_ws/build/aisd_interfaces
+[2.345s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aisd_interfaces)
+[2.351s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aisd/ros2_ws/build/aisd_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/aisd/ros2_ws/build/aisd_interfaces
+[2.359s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/install/aisd_interfaces' for CMake module files
+[2.359s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/install/aisd_interfaces' for CMake config files
+[2.363s] Level 1:colcon.colcon_core.shell:create_environment_hook('aisd_interfaces', 'cmake_prefix_path')
+[2.367s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/hook/cmake_prefix_path.ps1'
+[2.367s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/hook/cmake_prefix_path.dsv'
+[2.371s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/hook/cmake_prefix_path.sh'
+[2.375s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/install/aisd_interfaces/lib'
+[2.375s] Level 1:colcon.colcon_core.shell:create_environment_hook('aisd_interfaces', 'ld_library_path_lib')
+[2.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/hook/ld_library_path_lib.ps1'
+[2.379s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/hook/ld_library_path_lib.dsv'
+[2.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/hook/ld_library_path_lib.sh'
+[2.383s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/install/aisd_interfaces/bin'
+[2.383s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/install/aisd_interfaces/lib/pkgconfig/aisd_interfaces.pc'
+[2.383s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/install/aisd_interfaces/lib/python3.8/site-packages'
+[2.383s] Level 1:colcon.colcon_core.shell:create_environment_hook('aisd_interfaces', 'pythonpath')
+[2.387s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/hook/pythonpath.ps1'
+[2.391s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/hook/pythonpath.dsv'
+[2.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/hook/pythonpath.sh'
+[2.395s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/install/aisd_interfaces/bin'
+[2.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/package.ps1'
+[2.403s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/package.dsv'
+[2.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/package.sh'
+[2.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/package.bash'
+[2.411s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/package.zsh'
+[2.415s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aisd/ros2_ws/install/aisd_interfaces/share/colcon-core/packages/aisd_interfaces)
+[2.719s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aisd_interfaces)
+[2.723s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/install/aisd_interfaces' for CMake module files
+[2.723s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/install/aisd_interfaces' for CMake config files
+[2.723s] Level 1:colcon.colcon_core.shell:create_environment_hook('aisd_interfaces', 'cmake_prefix_path')
+[2.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/hook/cmake_prefix_path.ps1'
+[2.731s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/hook/cmake_prefix_path.dsv'
+[2.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/hook/cmake_prefix_path.sh'
+[2.743s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/install/aisd_interfaces/lib'
+[2.743s] Level 1:colcon.colcon_core.shell:create_environment_hook('aisd_interfaces', 'ld_library_path_lib')
+[2.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/hook/ld_library_path_lib.ps1'
+[2.747s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/hook/ld_library_path_lib.dsv'
+[2.755s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/hook/ld_library_path_lib.sh'
+[2.755s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/install/aisd_interfaces/bin'
+[2.755s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/install/aisd_interfaces/lib/pkgconfig/aisd_interfaces.pc'
+[2.755s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/install/aisd_interfaces/lib/python3.8/site-packages'
+[2.759s] Level 1:colcon.colcon_core.shell:create_environment_hook('aisd_interfaces', 'pythonpath')
+[2.763s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/hook/pythonpath.ps1'
+[2.767s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/hook/pythonpath.dsv'
+[2.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/hook/pythonpath.sh'
+[2.775s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/install/aisd_interfaces/bin'
+[2.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/package.ps1'
+[2.783s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/package.dsv'
+[2.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/package.sh'
+[2.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/package.bash'
+[2.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/install/aisd_interfaces/share/aisd_interfaces/package.zsh'
+[2.795s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aisd/ros2_ws/install/aisd_interfaces/share/colcon-core/packages/aisd_interfaces)
+[2.799s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/aisd/ros2_ws/src/aisd-vahabbayat/aisd_motion' with build type 'ament_python'
+[2.803s] Level 1:colcon.colcon_core.shell:create_environment_hook('aisd_motion', 'ament_prefix_path')
+[2.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/install/aisd_motion/share/aisd_motion/hook/ament_prefix_path.ps1'
+[2.807s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aisd/ros2_ws/install/aisd_motion/share/aisd_motion/hook/ament_prefix_path.dsv'
+[2.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/install/aisd_motion/share/aisd_motion/hook/ament_prefix_path.sh'
+[2.811s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.811s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.853s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aisd/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/aisd/ros2_ws/build/turtlesim
+[3.344s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/aisd/ros2_ws/src/aisd-vahabbayat/aisd_motion'
+[3.347s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.347s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.363s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[3.364s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aisd/ros2_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/aisd/ros2_ws/build/turtlesim
+[3.369s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/install/turtlesim' for CMake module files
+[3.373s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/install/turtlesim' for CMake config files
+[3.374s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[3.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[3.379s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aisd/ros2_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[3.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[3.383s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/install/turtlesim/lib'
+[3.384s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[3.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[3.387s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aisd/ros2_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[3.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[3.391s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/install/turtlesim/bin'
+[3.391s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[3.392s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/install/turtlesim/lib/python3.8/site-packages'
+[3.392s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'pythonpath')
+[3.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/install/turtlesim/share/turtlesim/hook/pythonpath.ps1'
+[3.396s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aisd/ros2_ws/install/turtlesim/share/turtlesim/hook/pythonpath.dsv'
+[3.397s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/install/turtlesim/share/turtlesim/hook/pythonpath.sh'
+[3.401s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/install/turtlesim/bin'
+[3.404s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/install/turtlesim/share/turtlesim/package.ps1'
+[3.407s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aisd/ros2_ws/install/turtlesim/share/turtlesim/package.dsv'
+[3.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/install/turtlesim/share/turtlesim/package.sh'
+[3.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/install/turtlesim/share/turtlesim/package.bash'
+[3.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/install/turtlesim/share/turtlesim/package.zsh'
+[3.413s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aisd/ros2_ws/install/turtlesim/share/colcon-core/packages/turtlesim)
+[3.963s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[3.963s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/install/turtlesim' for CMake module files
+[3.963s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/install/turtlesim' for CMake config files
+[3.963s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[3.963s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[3.963s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aisd/ros2_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[3.963s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[3.963s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/install/turtlesim/lib'
+[3.963s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[3.963s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[3.963s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aisd/ros2_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[3.963s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[3.965s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/install/turtlesim/bin'
+[3.965s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[3.966s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/install/turtlesim/lib/python3.8/site-packages'
+[3.966s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'pythonpath')
+[3.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/install/turtlesim/share/turtlesim/hook/pythonpath.ps1'
+[3.970s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aisd/ros2_ws/install/turtlesim/share/turtlesim/hook/pythonpath.dsv'
+[3.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/install/turtlesim/share/turtlesim/hook/pythonpath.sh'
+[3.974s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/install/turtlesim/bin'
+[3.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/install/turtlesim/share/turtlesim/package.ps1'
+[3.979s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aisd/ros2_ws/install/turtlesim/share/turtlesim/package.dsv'
+[3.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/install/turtlesim/share/turtlesim/package.sh'
+[3.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/install/turtlesim/share/turtlesim/package.bash'
+[3.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/install/turtlesim/share/turtlesim/package.zsh'
+[3.987s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aisd/ros2_ws/install/turtlesim/share/colcon-core/packages/turtlesim)
+[3.991s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/aisd/ros2_ws/src/aisd-vahabbayat/aisd_vision' with build type 'ament_python'
+[3.992s] Level 1:colcon.colcon_core.shell:create_environment_hook('aisd_vision', 'ament_prefix_path')
+[3.995s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/install/aisd_vision/share/aisd_vision/hook/ament_prefix_path.ps1'
+[3.996s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aisd/ros2_ws/install/aisd_vision/share/aisd_vision/hook/ament_prefix_path.dsv'
+[3.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/install/aisd_vision/share/aisd_vision/hook/ament_prefix_path.sh'
+[4.002s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.003s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.543s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/aisd/ros2_ws/src/aisd-vahabbayat/aisd_vision'
+[4.551s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.551s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.579s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aisd/ros2_ws/src/aisd-vahabbayat/aisd_motion': AMENT_PREFIX_PATH=/home/aisd/ros2_ws/install/aisd_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aisd/ros2_ws/install/aisd_interfaces LD_LIBRARY_PATH=/home/aisd/ros2_ws/install/aisd_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aisd/ros2_ws/install/aisd_motion/lib/python3.8/site-packages:/home/aisd/ros2_ws/install/aisd_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/aisd_motion build --build-base /home/aisd/ros2_ws/build/aisd_motion/build install --prefix /home/aisd/ros2_ws/install/aisd_motion --record /home/aisd/ros2_ws/build/aisd_motion/install.log --single-version-externally-managed
+[5.192s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/install/aisd_motion' for CMake module files
+[5.193s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/install/aisd_motion' for CMake config files
+[5.194s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/install/aisd_motion/lib'
+[5.194s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/install/aisd_motion/bin'
+[5.194s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/install/aisd_motion/lib/pkgconfig/aisd_motion.pc'
+[5.195s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/install/aisd_motion/lib/python3.8/site-packages'
+[5.195s] Level 1:colcon.colcon_core.shell:create_environment_hook('aisd_motion', 'pythonpath')
+[5.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/install/aisd_motion/share/aisd_motion/hook/pythonpath.ps1'
+[5.207s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aisd/ros2_ws/src/aisd-vahabbayat/aisd_motion' returned '0': AMENT_PREFIX_PATH=/home/aisd/ros2_ws/install/aisd_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aisd/ros2_ws/install/aisd_interfaces LD_LIBRARY_PATH=/home/aisd/ros2_ws/install/aisd_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aisd/ros2_ws/install/aisd_motion/lib/python3.8/site-packages:/home/aisd/ros2_ws/install/aisd_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/aisd_motion build --build-base /home/aisd/ros2_ws/build/aisd_motion/build install --prefix /home/aisd/ros2_ws/install/aisd_motion --record /home/aisd/ros2_ws/build/aisd_motion/install.log --single-version-externally-managed
+[5.208s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aisd/ros2_ws/install/aisd_motion/share/aisd_motion/hook/pythonpath.dsv'
+[5.212s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/install/aisd_motion/share/aisd_motion/hook/pythonpath.sh'
+[5.214s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/install/aisd_motion/bin'
+[5.217s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aisd_motion)
+[5.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/install/aisd_motion/share/aisd_motion/package.ps1'
+[5.228s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aisd/ros2_ws/install/aisd_motion/share/aisd_motion/package.dsv'
+[5.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/install/aisd_motion/share/aisd_motion/package.sh'
+[5.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/install/aisd_motion/share/aisd_motion/package.bash'
+[5.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/install/aisd_motion/share/aisd_motion/package.zsh'
+[5.243s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aisd/ros2_ws/install/aisd_motion/share/colcon-core/packages/aisd_motion)
+[5.346s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aisd/ros2_ws/src/aisd-vahabbayat/aisd_vision': AMENT_PREFIX_PATH=/home/aisd/ros2_ws/install/aisd_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aisd/ros2_ws/install/aisd_interfaces LD_LIBRARY_PATH=/home/aisd/ros2_ws/install/aisd_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aisd/ros2_ws/install/aisd_vision/lib/python3.8/site-packages:/home/aisd/ros2_ws/install/aisd_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/aisd_vision build --build-base /home/aisd/ros2_ws/build/aisd_vision/build install --prefix /home/aisd/ros2_ws/install/aisd_vision --record /home/aisd/ros2_ws/build/aisd_vision/install.log --single-version-externally-managed
+[5.997s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/install/aisd_vision' for CMake module files
+[5.998s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/install/aisd_vision' for CMake config files
+[5.999s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/install/aisd_vision/lib'
+[5.999s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/install/aisd_vision/bin'
+[5.999s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/install/aisd_vision/lib/pkgconfig/aisd_vision.pc'
+[6.000s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/install/aisd_vision/lib/python3.8/site-packages'
+[6.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('aisd_vision', 'pythonpath')
+[6.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/install/aisd_vision/share/aisd_vision/hook/pythonpath.ps1'
+[6.006s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aisd/ros2_ws/src/aisd-vahabbayat/aisd_vision' returned '0': AMENT_PREFIX_PATH=/home/aisd/ros2_ws/install/aisd_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aisd/ros2_ws/install/aisd_interfaces LD_LIBRARY_PATH=/home/aisd/ros2_ws/install/aisd_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aisd/ros2_ws/install/aisd_vision/lib/python3.8/site-packages:/home/aisd/ros2_ws/install/aisd_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/aisd_vision build --build-base /home/aisd/ros2_ws/build/aisd_vision/build install --prefix /home/aisd/ros2_ws/install/aisd_vision --record /home/aisd/ros2_ws/build/aisd_vision/install.log --single-version-externally-managed
+[6.006s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aisd/ros2_ws/install/aisd_vision/share/aisd_vision/hook/pythonpath.dsv'
+[6.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/install/aisd_vision/share/aisd_vision/hook/pythonpath.sh'
+[6.009s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/install/aisd_vision/bin'
+[6.010s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aisd_vision)
+[6.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/install/aisd_vision/share/aisd_vision/package.ps1'
+[6.015s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aisd/ros2_ws/install/aisd_vision/share/aisd_vision/package.dsv'
+[6.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/install/aisd_vision/share/aisd_vision/package.sh'
+[6.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/install/aisd_vision/share/aisd_vision/package.bash'
+[6.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/install/aisd_vision/share/aisd_vision/package.zsh'
+[6.021s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aisd/ros2_ws/install/aisd_vision/share/colcon-core/packages/aisd_vision)
+[6.024s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.025s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.025s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.025s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.040s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[6.040s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.041s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.041s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.044s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[6.014s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.017s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aisd/ros2_ws/install/local_setup.ps1'
+[6.021s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aisd/ros2_ws/install/_local_setup_util_ps1.py'
+[6.025s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aisd/ros2_ws/install/setup.ps1'
+[6.029s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aisd/ros2_ws/install/local_setup.sh'
+[6.031s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aisd/ros2_ws/install/_local_setup_util_sh.py'
+[6.033s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aisd/ros2_ws/install/setup.sh'
+[6.037s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aisd/ros2_ws/install/local_setup.bash'
+[6.039s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aisd/ros2_ws/install/setup.bash'
+[6.043s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aisd/ros2_ws/install/local_setup.zsh'
+[6.046s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aisd/ros2_ws/install/setup.zsh'
